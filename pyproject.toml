@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "prize-bonds-detection"
+version = "0.1.0"
+description = "prize bond serial number detect using ocr"
+authors = ["MegaPudding <zimfuad@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.10.0.84"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
